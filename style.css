@@ -74,7 +74,6 @@ main{
 /* header starts here */
 header{
     background-color: var(--primary-color);
-    /* padding: 1rem; */
     position: fixed;
     width: 95%;
     top: 0;
