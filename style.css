@@ -15,6 +15,7 @@
 
 body{
     background-color: var(--primary-color);
+    line-height: 1.5em;
 }
 .body{
 display: flex;
@@ -172,5 +173,34 @@ main .container{
     padding: 2rem;
     margin-top: 5%;
 } 
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .container .card{
+    width: 33.33%;
+    padding: 1rem;
+}
+
+
+main .container h5{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main .container p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606060;
+}
+
+main .container img{
+    width: 100%;
+    border-radius: 3%;
+}
 
 
